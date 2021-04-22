@@ -5,7 +5,7 @@ from pymodm import connect, MongoModel, fields
 
 
 def init_mongo_db():
-    connect("mongodb+srv://<username>:<password>@<yourclustername>-nlfrn.mongodb.net/test?retryWrites=true")
+    connect("mongodb+srv://ag563@duke.edu:12qwaszX@bme547-nlfrn.mongodb.net/test?retryWrites=true")
 
 
 class User(MongoModel):
